@@ -2,7 +2,7 @@
 
 import { Photo, PhotoSearchResponse } from "@/lib/type";
 import { FunctionComponent, useState, useTransition } from "react";
-import { VscSearch } from 'react-icons/vsc';
+import { VscSearch } from "react-icons/vsc";
 import { Loading } from "./Loading";
 import { PhotoList } from "./PhotoList";
 
