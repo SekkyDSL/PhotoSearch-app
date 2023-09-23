@@ -9,7 +9,7 @@ export const PhotoList: FunctionComponent<{
 }> = ({photos}) => {
     return (
         <div className="grid grid-cols-3 gap-4 w-[1200px] mx-auto">
-            {[0,1,2].map((columnIndex) =>(
+            {Object.values([0,1,2]).map((columnIndex) =>(
                 <div key={columnIndex}>
                     {photos.map((photo, photoIndex) => {
                         if (photoIndex % 3 === columnIndex) {
